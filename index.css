@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    background-color: black;
+    color: azure;
+    padding: 25px;
+}
