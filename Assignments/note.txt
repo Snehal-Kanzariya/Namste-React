@@ -1,0 +1,39 @@
+=====================================================================================================
+IGNITING OUR REACT APP
+
+npm init
+to create package.json 
+or
+npm init -y = skip some option 
+
+npm install -D parcel
+or 
+npm install --save -dev parcel
+
+in package.json
+
+"devDependencies": {
+    "parcel": "^2.8.2"
+  }
+  if we use ^2.8.2 then it auto upgrade minior version
+  if we use ~2.8.2 then it autoupgrade mager version 
+  if we write 2.8.2 then it specify we want this specific version
+
+package-lock.json is able to generate node modules
+
+how to eject my react
+1)use cdn 
+2)npm install react 
+    install globally 
+npm i react-dom
+
+-> Igniting react app with parcel
+    npx parcel index.html(entry point)
+
+we can not import or export script
+we should add in type modules
+
+npx parcel build index.html
+
+======================================================================================================
+

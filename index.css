@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
 }
 #container {
-    background-color: black;
+    background-color: blue;
     color: azure;
     padding: 25px;
 }
