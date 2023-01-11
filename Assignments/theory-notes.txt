@@ -1,0 +1,101 @@
+==============================================================================================
+INCPECTION 
+
+What is Emmet?
+    built in plugin that Emmet your basic built in boilarplate code. essential toolkit for web developer kit.
+
+Difference between a Library and Framework?
+    you call Library    
+    Framework call you
+
+What is CDN? Why do we use it? 
+    content delivery network - it is give quick access to using internet from global server 
+    is a network or collection of servers in locations all over the world. Also known as a content distribution network
+
+Why is React known as React?
+    because it continusly change their data , user events(click, typing, hovering, etc.) are fire that time its react 
+
+What is crossorigin in script tag?
+    The crossorigin attribute sets the mode of the request to an HTTP CORS Request. - (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+What is diference between React and ReactDOM
+    react Library is responsible for creating views 
+    ReactDOM is used for render ui in browser
+
+What is difference between react.development.js and react.production.js files via CDN?
+        development is only ment for development purpose
+        Minified and optimized production versions of React
+
+What is async and defer?
+    async is excute the html parsing in between script is come then its excute and pause the html parsing then continue after complte script fetching 
+    defer is first excute html parsing and then excute script fetching
+
+===============================================================================================
+
+IGNITING REACT APP
+
+What is `NPM`?
+    It is package manager that is store all packages which you want to in your whole project.
+
+What is `Parcel/Webpack`? Why do we need it?
+    Parcel is a bunddller it means it provide too many facilities like
+    1) HMR hot module reloading
+    2) File watcher algorithm c++
+    3) bundling
+    4) minify
+    5) cleaning our code
+    6) dev abd production build
+    7) super fast build algorithm
+    8) images optimized
+    9) chaching while development
+    10) compression
+    11) Compatible with other older browser
+    12) HTTPS on dev server
+    13) port number
+    14) consistent hashing algorithm
+    15) zero config
+    16) tree shaking - removing unwanted
+    17) transitive depedency
+
+What is `.parcel-cache` 
+    store info about your project when parcel build it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch.
+
+What is `npx` ?
+    node module excute the project 
+
+What is difference between `dependencies` vs `devDependencies`  
+    devDependencies is module which are only required in development
+    while depedency are also need in run time(production time)
+
+What is Tree Shaking?
+    parcel is analyze the import and export and removing unused 
+
+What is the difference between `package.json` and `package-lock.json`
+    package-lock.json is locking the depedency with installed version.
+    It will install the exact latest version of that package in your application and save it in package. json.
+
+Why should I not modify `package-lock.json`
+    It is a generated file and is not designed to be manually edited.
+
+What is the `dist` folder?
+    Parcel's default directory for your output is named dist . The --dist-dir public tag defines the output folder for your production files and is named public to avoid confusion with the dist default directory
+
+What is `browserlists`
+    it manages your project is also capable to run in older browser
+
+bundlers: vite parcel Webpack
+
+=================
+Component composition is the name for passing components as props to other components, thus creating new components with other components.
+
+what is jsx ?
+    JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.
+
+Superpowers of JSX?
+    easy to right and jsx Syntax is releted to html
+    code write with js functionality
+
+Role of 'type' attribute in script tag
+    script not releted with react that's why we use type module
+
+    

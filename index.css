@@ -8,3 +8,14 @@ body {
     color: azure;
     padding: 25px;
 }
+h1 {
+    color: white;
+    background-color: blue;
+    margin: 0;
+}
+div h2 {
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
