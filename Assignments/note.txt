@@ -45,3 +45,5 @@ what is Reconciliation in react
     The mechanism to diff one tree with another to determine which parts need to be changed and then update the original DOM with it is called Reconciliation
 what is react fiber
     React Fiber is a concept of ReactJS that is used to render a system faster and smoother
+
+========================================================================================

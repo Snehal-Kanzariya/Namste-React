@@ -1,21 +1,42 @@
 body {
-    margin: 0;
+    margin: 0 10px;
     padding: 0;
     box-sizing: border-box;
 }
-#container {
-    background-color: blue;
-    color: azure;
-    padding: 25px;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 10px 0;
 }
-h1 {
-    color: white;
-    background-color: blue;
-    margin: 0;
+.nav-item ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
 }
-div h2 {
-    margin: 0;
-    padding: 20px;
-    background-color: black;
-    color: white;
+.nav-item ul li {
+    padding: 0 15px;
+}
+.nav-item ul li:last-child {
+    padding-right: 0;
+}
+.logo {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+.card {
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+.card img {
+    width: 100%;
+}
+.restaurant-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }

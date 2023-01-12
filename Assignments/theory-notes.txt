@@ -98,4 +98,8 @@ Superpowers of JSX?
 Role of 'type' attribute in script tag
     script not releted with react that's why we use type module
 
+=================================================================
+can we use index as a key in react?
+    react don't recommend to use index as key because order may change
+
     
