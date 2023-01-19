@@ -47,3 +47,5 @@ what is react fiber
     React Fiber is a concept of ReactJS that is used to render a system faster and smoother
 
 ========================================================================================
+
+when you call an api when page loads with empty depedencies

@@ -1,6 +1,11 @@
+import { useState } from "react";
+
+const loggedInUser = () => {
+  return false;
+};
 
 // nameing export
-export const Title = () => {
+const Title = () => {
   return (
     <a href="/">
       <img
@@ -13,6 +18,7 @@ export const Title = () => {
 };
 
 const Header = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
   return (
     <>
       <header>
@@ -23,6 +29,17 @@ const Header = () => {
             <li>About</li>
             <li>Contact</li>
             <li>Cart</li>
+            {isLoggedIn ? (
+              <li>
+                <button onClick={() => setIsLoggedIn(false)}>Log In</button>
+              </li>
+            ) : (
+              <li>
+                <button onClick={() => setIsLoggedIn(true)}>Log Out</button>
+              </li>
+            )}
+
+            <li></li>
           </ul>
         </div>
       </header>

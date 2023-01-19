@@ -43,3 +43,14 @@ header {
 .search-btn  {
     margin: 10px;
 }
+
+.rating {
+    position: relative;
+    background: #90ee90;
+    width: max-content;
+    padding: 5px;
+}
+
+button {
+    margin: 0 4px;
+}

@@ -8,7 +8,7 @@ const RestauntCard = ({ cloudinaryImageId, name, cuisines, avgRating }) => {
       {/* optional channing ? */}
       <h2>{name}</h2>
       <h3>{cuisines.join(", ")}</h3>
-      <h4>{avgRating} stars</h4>
+      <h4 className="rating">{avgRating} stars</h4>
     </div>
   );
 };
