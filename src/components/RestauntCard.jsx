@@ -1,6 +1,5 @@
 import { IMG_CDN_URL } from "./config";
 
-
 const RestauntCard = ({ cloudinaryImageId, name, cuisines, avgRating }) => {
   return (
     <div className="card">
@@ -8,7 +7,7 @@ const RestauntCard = ({ cloudinaryImageId, name, cuisines, avgRating }) => {
       {/* optional channing ? */}
       <h2>{name}</h2>
       <h3>{cuisines.join(", ")}</h3>
-      <h4 className="rating">{avgRating} stars</h4>
+      {avgRating != "--" && <h4 className="rating">{avgRating} stars</h4>}
     </div>
   );
 };

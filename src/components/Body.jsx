@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { restaurantList } from "./config";
 import RestauntCard from "./RestauntCard";
 import Shimmer from "./Shimmer";
@@ -16,9 +17,8 @@ const Body = () => {
   const [searchText, setSearchText] = useState();
 
   useEffect(() => {
-    // API call
     getRestaurants();
-  }, [])
+  }, []);
 
   async function getRestaurants() {
     const data = await fetch(
@@ -34,13 +34,15 @@ const Body = () => {
   // conditional rendering
 
   // not render component early return
-    if(!allRestaurants) return null;  
+  if (!allRestaurants) return null;
 
-    if (filterRestaurants?. length === 0) {
-      return <h1>No found this Restaurant</h1>
-    }
+  // if (filterRestaurants?. length === 0) {
+  //   return <h1>No found this Restaurant</h1>
+  // }
 
-  return allRestaurants?.length === 0 ? (<Shimmer />) :  (
+  return allRestaurants?.length === 0 ? (
+    <Shimmer />
+  ) : (
     <>
       <div className="search-container">
         <input
@@ -64,7 +66,15 @@ const Body = () => {
       </div>
       <div className="restaurant-list">
         {filterRestaurants.map((restaurant) => {
-          return <RestauntCard {...restaurant.data} key={restaurant.data.id} />;
+          return (
+            <Link
+              to={"/restaturant/" + restaurant.data.id}
+              key={restaurant.data.id}
+            >
+              {" "}
+              <RestauntCard {...restaurant.data} />{" "}
+            </Link>
+          );
         })}
       </div>
     </>

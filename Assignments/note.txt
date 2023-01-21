@@ -49,3 +49,16 @@ what is react fiber
 ========================================================================================
 
 when you call an api when page loads with empty depedencies
+
+==========================
+react router dom
+    createBrowserRouter 
+    RouterProvider - component of router
+
+useRouterError - hook for showing error
+outlet is component- if you want to create nested router
+
+Dynamic routing
+
+useParams hook
+read Dynamic url

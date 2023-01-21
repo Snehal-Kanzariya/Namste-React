@@ -102,4 +102,29 @@ Role of 'type' attribute in script tag
 can we use index as a key in react?
     react don't recommend to use index as key because order may change
 
-    
+=======================================================
+EXPLORING THE world
+
+what is micro service?
+    micro service means all fector wise work in different technology and all model work seperatly and connect together
+what is monolith architeture?
+    before all project part in on project like api uiPart etc.
+why do we need a useEffect hook?
+    because when you want give effect or render components on specifc time or specific event then you can use 
+    useEffect hook it use for also api call
+what is optional chaining?
+    ?. = Optional chaining is a process for querying and calling properties, methods, and subscripts on an optional that might currently be nil 
+what is Shimmer ui?
+    it is effect for before loading the ui
+what is difference between Expression and JS statement?
+    Expressions produce a value, and that value will be passed into the function. Statements don't produce a value, and so they can't be used as function arguments.
+what is conditional rendering?
+      return allRestaurants?.length === 0 ? (<Shimmer />) :  (
+        component )
+what is CORS?
+    when browser breck cdn data that time install cross origin plugin
+what is async and await?
+    async and await generally use with calling API
+what is the use of const json = await data.json();
+    get API data in json for some wait 
+
